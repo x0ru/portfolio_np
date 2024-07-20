@@ -618,6 +618,9 @@ a:active {
     .toDisappear{
         display: none;
     }
+    #menuOption{
+        transform: translateX(2000px);
+    }
 }
 
 @media (min-width: 390px) and (max-width: 480px) {
@@ -650,6 +653,9 @@ a:active {
     .carousel-indicators img{
         width: 25vw;
     }
+    #menuOption{
+        transform: translateX(2000px);
+    }
 }
 
 @media (max-width: 390px) {
@@ -678,5 +684,8 @@ a:active {
     }
     .carousel-indicators img{
         width: 25vw;
+    }
+    #menuOption{
+        transform: translateX(2000px);
     }
 }
