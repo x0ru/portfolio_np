@@ -412,7 +412,7 @@ a:active {
 
 .autoShowStack{
     animation: autoShowAnimationStack both;
-    animation-timeline: view(-40% 30%);
+    animation-timeline: view(-80% 30%);
 }
 
 .autoShowStackRight{
@@ -460,7 +460,7 @@ a:active {
 
     }
     100%{
-          transform: translateY(55vh);
+          transform: translateY(95vh);
         opacity: 0;
       }
 }
@@ -647,6 +647,9 @@ a:active {
     .container{
         margin-top: 100px;
     }
+    .carousel-indicators img{
+        width: 25vw;
+    }
 }
 
 @media (max-width: 390px) {
@@ -672,5 +675,8 @@ a:active {
         max-width: 200px;
         margin-top: 20px;
         text-align: right;
+    }
+    .carousel-indicators img{
+        width: 25vw;
     }
 }
