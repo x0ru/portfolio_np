@@ -265,7 +265,7 @@ a:active {
 }
 
 .carousel-item1{
-    background-image: url("/assets/img/screen_openai.png");
+    background-image: url("../assets/img/screen_openai.png");
     height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,7 +273,7 @@ a:active {
 }
 
 .carousel-item2{
-    background-image: url("/assets/img/screen-estate.png");
+    background-image: url("../assets/img/screen-estate.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -281,7 +281,7 @@ a:active {
 }
 
 .carousel-item3{
-    background-image: url("/assets/img/screen-algo.png");
+    background-image: url("../assets/img/screen-algo.png");
     height: 75vh;
     background-size: cover;
     animation: pan-image 15s linear infinite;
