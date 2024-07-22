@@ -8,8 +8,7 @@ window.addEventListener('scroll', () => {
   scrollProgress.style.transform = `rotate(${(scrollTop / height) * 800}deg)`;
 });
 
-let text = [ 'Full stack web developer', 'Calisthenics enthusiast',
-  'Full stack web developer', 'Every cat met cuddler', 'Full stack web developer', 'Video games lover']
+let text = [ 'Calisthenics enthusiast', 'Every cat met cuddler', 'Video games lover']
 let locationString = 0;
 
 function changeTextHero() {
@@ -20,6 +19,7 @@ function changeTextHero() {
   }
   secondPartHeroText.innerHTML=text[locationString].substring(0, spaceX) + '<h2 class="colorRed d-inline">' +
       text[locationString].substring(spaceX);
+  secondPartHeroText.style.textAlign='center';
   secondPartHeroText.classList.remove('otherAnimation');
   secondPartHeroText.offsetHeight;
   secondPartHeroText.classList.add('otherAnimation');

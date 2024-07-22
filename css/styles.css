@@ -111,13 +111,15 @@ a:active {
 }
 
 #secondPartName{
-    display: inline-block;
-    padding: 2vw 0 0 4vh;
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0 0 0;
 }
 
 #secondPartHero{
-    border-top: 3px solid var(--second-color);
+    border-bottom: 3px solid var(--second-color);
     margin-top: 10vh;
+    padding-bottom: 1vh;
     animation: transferLinesRight 2.5s ease-out;
 }
 
@@ -544,7 +546,7 @@ a:active {
 }
 @keyframes transferLinesRightText {
     0%{
-        transform: translateY(-5vh);
+        transform: translateY(-3vh);
         opacity: 0;
     }
     20%{
@@ -656,6 +658,9 @@ a:active {
     #menuOption{
         transform: translateX(2000px);
     }
+    .autoBlur{
+        animation: none;
+    }
 }
 
 @media (max-width: 390px) {
@@ -687,5 +692,8 @@ a:active {
     }
     #menuOption{
         transform: translateX(2000px);
+    }
+    .autoBlur{
+        animation: none;
     }
 }
