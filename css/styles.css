@@ -695,5 +695,6 @@ a:active {
     }
     .autoBlur{
         animation: none;
+        animation: none;
     }
 }
