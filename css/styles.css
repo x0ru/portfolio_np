@@ -245,7 +245,7 @@ a:active {
 }
 
 .carousel-indicators img{
-    height: 13vh;
+    height: 10vh;
     width: 18vw;
     max-width: 150px;
     display: block;
@@ -267,7 +267,7 @@ a:active {
 }
 
 .carousel-item1{
-    background-image: url(../assets/img/screen_openai.png);
+    background-image: url(../assets/img/screen_guess_pic.png);
     height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,6 +275,14 @@ a:active {
 }
 
 .carousel-item2{
+    background-image: url(../assets/img/screen_openai.png);
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: pan-image 15s linear infinite;
+}
+
+.carousel-item3{
     background-image: url(../assets/img/screen-estate.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -282,7 +290,7 @@ a:active {
      animation: pan-image 15s linear infinite;
 }
 
-.carousel-item3{
+.carousel-item4{
     background-image: url(../assets/img/screen-algo.png);
     height: 75vh;
     background-size: cover;
